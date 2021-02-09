@@ -13,4 +13,4 @@ echo welcome to DevOps
 #  but preferred is double quotes) , Also esc seq works when you enable -e option to echo command.
 
 
-echo -e "Hello,\nwelcome to devops Training"
+echo -e "Hello,\n\nWelcome to devops Training"
