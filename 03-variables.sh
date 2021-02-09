@@ -16,4 +16,4 @@
  FILE2=new.txt
 
 # cp $FILE1 $FILE2
-
+# output for syntax echo NAME=$NOM is ---> NAME=DEVOPS
