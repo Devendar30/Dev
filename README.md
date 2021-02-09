@@ -8,4 +8,4 @@
 6. Functions 
 7. Conditions 
 8. Loops
-9. SED command  
+9. SED commands to learn
