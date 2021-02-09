@@ -38,3 +38,4 @@ echo -e "Hello\tworld" # \t gives tab space
 # example syntax to print in Hello in Cyan ----   echo -e "\e[36mHello"
 
 echo -e "\e[31m Warning...There is an error"
+echo "Bye"
