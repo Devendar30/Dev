@@ -3,7 +3,7 @@
 # if we assign a name to a set of data is called as variable
 
 # Declare a variable in bash shell
- NAME=DEVOPS
+ NOM=DEVOPS
 
  # shell will not have data types as other scripting languages....all the data is a string for shell.
 
@@ -11,7 +11,7 @@
 
  # Access the variable
 
- echo NAME
+ echo NAME=$NOM
  FILE1=sample
  FILE2=new.txt
 
