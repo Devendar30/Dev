@@ -21,4 +21,4 @@
 # if your data has space then use quotes
 echo NAME="welcome to DevOps"
 
-echo "Count of apples = $COUNT no"
+echo "Count of apples = ${COUNT} no"
