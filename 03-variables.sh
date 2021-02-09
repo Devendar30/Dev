@@ -15,5 +15,5 @@
  FILE1=sample
  FILE2=new.txt
 
- cp $FILE1 $FILE2
+# cp $FILE1 $FILE2
 
