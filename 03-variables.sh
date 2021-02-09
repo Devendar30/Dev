@@ -11,7 +11,7 @@
 
  # Access the variable
 
- echo NAME=$NAME
+ echo NAME
  FILE1=sample
  FILE2=new.txt
 
