@@ -17,3 +17,6 @@
 
 # cp $FILE1 $FILE2
 # output for syntax echo NAME=$NOM is ---> NAME=DEVOPS
+
+# if your data has space then use quotes
+NAME=welcome to DevOps
