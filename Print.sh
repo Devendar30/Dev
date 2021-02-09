@@ -39,3 +39,12 @@ echo -e "Hello\tworld" # \t gives tab space
 
 echo -e "\e[31m Warning...There is an error"
 echo "Bye"
+# color enabling will not be disabled by default, we have to disable the color
+# to disable the color we have one more color code which is zero,  Syntsx --> echo -e "\e[0medit\e[0m"
+
+# color         purpose
+#  0         reset the color
+#  1        bold the text
+#  4        underline the text
+
+# now if we want to print a message with properties like (bold or underline) is
