@@ -33,4 +33,4 @@ echo "Welcome, Good Morning, Today date is 2021-02-09"
 
 DATE=$(date +%F)
 
-echi "Welcome, Good Morning, Today is $DATE"
+echo "Welcome, Good Morning, Today is $DATE"
