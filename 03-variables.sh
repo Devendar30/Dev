@@ -22,3 +22,15 @@
 echo NAME="welcome to DevOps"
 
 echo "Count of apples = ${count} no"
+-------------------
+# sometimes we need variable data dynamically
+
+echo "Welcome, Good Morning, Today date is 2021-02-09"
+# Above statement makes it wrong because of static date
+
+# Command Substitution
+# Var=$(COMMAND)
+
+DATE=$(date +%F)
+
+echi "Welcome, Good Morning, Today is $DATE"
