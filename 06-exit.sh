@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo hello
-exit
-echo bye
+#echo hello
+#exit
+#echo bye
 
 ##exit command stop stop the script if it is encountered, No more commands will execute
 ## simple exit command returns 0 as the text status.
