@@ -40,3 +40,5 @@ echo "Welcome, Good Morning, Today is $DATE"
 ADD=$((2+3+4+5))
 
 echo ADD = $ADD
+
+echo "value of a = $A"
