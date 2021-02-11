@@ -5,6 +5,13 @@ read -p 'Enter your age:' age
 
 echo -e "\n Your name = $name \n Your age = $age"
 
-ADD=$((2+3+4+5))
+# Out put of above syntax
 
-echo ADD = $ADD
+#Enter your name:Dev
+#Enter your age:40
+
+# Your name = Dev
+# Your age = 40
+
+
+
