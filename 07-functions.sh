@@ -15,4 +15,4 @@ function sample2()
  }
 
 sample
-sample1
+sample2
