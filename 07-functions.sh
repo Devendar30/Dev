@@ -12,7 +12,7 @@ sample ()
 function sample1()
  {
   echo Hello from sample1 function
-  b=20
+  b=30
  }
  a=10
 sample
