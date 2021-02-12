@@ -6,7 +6,7 @@
 sample ()
  {
   echo Hello from sample function
-  echo a = $1
+  echo a = $a
   echo first Argument = $1
  }
 #way2
