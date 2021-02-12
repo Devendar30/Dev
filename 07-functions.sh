@@ -19,3 +19,10 @@ sample
 sample1
 echo b=$b
 
+#Output for above code is below
+
+#Hello from sample function
+#a = 10
+#Hello from sample1 function
+#b=20
+
