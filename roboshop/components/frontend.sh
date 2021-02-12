@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echi Welcome to frontend.
+echo Welcome to frontend.
