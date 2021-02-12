@@ -14,3 +14,5 @@ function sample1()
   echo Hello from sample1 function
  }
 
+sample
+sample1
