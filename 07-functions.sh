@@ -12,8 +12,10 @@ sample ()
 function sample1()
  {
   echo Hello from sample1 function
+  b=20
  }
  a=10
 sample
 sample1
+echo b=$b
 
