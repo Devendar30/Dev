@@ -24,5 +24,5 @@ echo b=$b
 #Hello from sample function
 #a = 10
 #Hello from sample1 function
-#b=20
+#b=30
 
