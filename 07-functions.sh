@@ -9,10 +9,10 @@ sample ()
  }
 
 #way2
-function sample2()
+function sample1()
  {
   echo Hello from sample1 function
  }
 
 sample
-sample2
+sample1
