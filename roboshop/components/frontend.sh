@@ -5,7 +5,7 @@ COMPONENT=frontend
 source components/common.sh
 
 Print "Installing Nginx" "yum install nginx -y"
-yum install nginx -y
+yum install nginx -y &>/tmp/log
 stat $?
 
  Print "Starting Nginx Services" "systemctl start nginx"
