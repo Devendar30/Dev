@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "USER" != root ]; then
-  echi Hey, you are not a root user.
+  echo Hey, you are not a root user.
   fi
 
   fi [ -z "$a" ]; then
