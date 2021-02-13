@@ -6,3 +6,4 @@ if [ "USER" != root ]; then
 
   fi [ -z "$a" ]; then
     echo variable a is empty
+    fi
