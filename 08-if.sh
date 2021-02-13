@@ -4,8 +4,8 @@ if [ "USER" != root ]; then
   echo Hey, you are not a root user.
   fi
 
-  read -p 'enter your name:' name
+  read -p 'enter your name:' name=devendar
 
 if [ -z "$name" ]; then
-    echo variable a is empty
+    echo Hey, you have not entered your name
 fi
