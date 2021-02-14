@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z "${componet}" ]; then
+if [ -z "${component}" ]; then
   echo "Need an Input of component name"
   exit 1
 fi
