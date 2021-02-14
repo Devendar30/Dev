@@ -20,10 +20,11 @@ common:
 
 cart: common
 cart: 						## Install Cart Component
-	@echo does something
+	@sh components/cart.sh
 
 catalogue: common
 catalogue: 					##Install Catalogue Component
-	@echo does something
+	@sh component/catalogue.sh
 
-
+frontend: common 			##Install Frontend Component
+	@sh components/frontend.sh
