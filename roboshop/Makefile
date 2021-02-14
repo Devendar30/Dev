@@ -1,13 +1,30 @@
-help:
-	@printf "\033[32mRoboshop Shell Scripting MAke Options$(version)\033[0m\n\n"
-	@grep -E '^[a-zA-Z_-]+:.*?## .$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {Printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+#help:
+#	@printf "\033[32mRoboshop Shell Scripting MAke Options$(version)\033[0m\n\n"
+#	@grep -E '^[a-zA-Z_-]+:.*?## .$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {Printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 
-common:
-	@sh components/common.sh
-cart: common ## Install cart component
-	@sh components/cart.sh
-catalogue: common ## Install catalogue component
-	@sh components/catalogue.sh
-frontend: common ## Install frontend component
-	@sh components/frontend.sh
+#common:
+#	@sh components/common.sh
+#cart: common ##Install cart component
+#	@sh components/cart.sh
+#catalogue: common ##Install catalogue component
+#	@sh components/catalogue.sh
+#frontend: common ##Install frontend component
+#	@sh components/frontend.sh
+
+help:       ##Show this help.
+	@grep -h '##' $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\s//' | sed -e 's/##//'
+# everything below is an example
+
+target00:
+	@echo does nothing
+
+target01:    ## This message also show up when trying 'make help'
+
+# Remember that targets can have multiple entries (if your target specifications are very long, etc.)
+
+target02:    ## This message will sho up too!!
+target02: target00 target01
+	@echo does even more
+
+
