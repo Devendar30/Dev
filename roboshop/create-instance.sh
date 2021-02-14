@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "${componet}" ]; then
+  echo "Need an Input of component name"
+  exit 1
+fi
+
+aws ec2 run-instances-instances --launch-template LaunchTemplateId=lt-007ed01f0ecd19fd9 --tag-specifications "ResourceType=instance
+, Tags=[{key=Name, Value=${component}}]"
