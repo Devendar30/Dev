@@ -12,18 +12,18 @@
 #frontend: common ##Install frontend component
 #	@sh components/frontend.sh
 
-help:       ##Show this help.
+help:
 	@grep -h '##' $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\s//' | sed -e 's/##//'
-# everything below is an example
 
 common:
 	@sh components/common.sh
 
-cart: common     ## install cart component
+cart: common
+cart: 						## Install Cart Component
 	@echo does something
-# Remember that targets can have multiple entries (if your target specifications are very long, etc.)
 
 catalogue: common
+catalogue: 					##Install Catalogue Component
 	@echo does something
 
 
