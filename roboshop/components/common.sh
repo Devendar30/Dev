@@ -24,8 +24,12 @@ Print() {
 }
 
 stat() {
- if [ "$1" -eq 0 ]; then
-echo -e  "[\e[1;34mInfo\e[0m]-------------------------------------------------"
+  echo -e "\n[\e[1;34mINFO\e[0m]---------------------"
+  if [ "$1" -eq 0 ]; then
+  echo -e  "[\e[1;34mInfo\e[0m]-------------------------------------------------"
+  else
+    echo -e "\n[\e[1;34mINFO\e[0m] \e[1;31m EXIT STATUS - $1 :: FAILURE \e[0m"
+    exit 2
 fi
 }
 
