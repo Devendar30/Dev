@@ -19,4 +19,4 @@ IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${compone
 export component
 export IPADDRESS
 
-envsubt <record.json > /tmp/${component}.json
+envsubst <record.json >/tmp/${component}.json
