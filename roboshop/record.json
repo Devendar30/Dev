@@ -6,7 +6,7 @@
       "Name": "${component}.devendar.tk",
       "Type": "A",
       "TTL": 300,
-      "ResourceRecords": [{ "value": "${IPADDRESS}"}]
+      "ResourceRecords": [{ "Value": "${IPADDRESS}"}]
     }
   }]
 
