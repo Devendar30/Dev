@@ -12,6 +12,11 @@ STAT=$(aws ec2 describe-instances --filters "Name=tag:Name,Values={frontend}" --
 if [ STATE == "running" ]; then
 aws ec2 run-instances --launch-template LaunchTemplateId=lt-007ed01f0ecd19fd9 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,
 Value=${component}}]"
-
 fi
 
+IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values={component}" --query 'Reservations[*].Instances[*].PrivateIpAddress' --output text)
+
+export component
+export IPADDRESS
+
+envsubt <record.jason > /tmp/${component}.json

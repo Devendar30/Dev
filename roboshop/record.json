@@ -1,0 +1,14 @@
+{
+  "Comment": "CREATE/DELETE/INSERT a record",
+  "Changes": [{
+    "Action": "CREATE",
+    "ResourceRecordSet": {
+      "Name": "${component}",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [{ "value": "${IPADDRESS}"}]
+    }
+  }]
+
+
+}
