@@ -5,7 +5,7 @@ COMPONENT=catalogue
 source components/common.sh
 
 Print "Installing NodeJS" "yum install nodejs make gc-c++ -y"
-yum install nodejs make gc-c++ -y
+yum install nodejs make gcc-c++ -y
 stat $?
 
 Print "Adding roboshop user" "useradd roboshop"
