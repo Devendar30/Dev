@@ -18,7 +18,7 @@ curl -s -L -o /tmp/catalogue.zip "https://dev.azure.com/DevOps-Batches/f635c088-
 &resolveLfs=true&%24format=zip&api-version=5.0&download=true"
 
 stat $?
-Print "Extarct catalogue component code" "rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue &&
+Print "Extract catalogue component code" "rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue &&
 unzip /tmp/catalogue.zip"
 
 rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue && unzip /tmp/catalogue.zip
@@ -27,9 +27,3 @@ stat $?
 exit
 $ npm install
 
-
-
-# mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
-# systemctl daemon-reload
-# systemctl start catalogue
-# systemctl enable catalogue
