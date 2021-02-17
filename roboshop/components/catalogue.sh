@@ -19,10 +19,11 @@ stat$?
 
 Print "Extarct catalogue component code" "rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue &&
 unzip /tmp/catalogue.zip"
-rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue &&
+rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue && unzip /tmp/catalogue.zip
 stat $?
 
 exit
+$ npm install
 
 
 
