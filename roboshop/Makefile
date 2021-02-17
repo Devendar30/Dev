@@ -10,7 +10,7 @@ cart: 						## Install Cart Component
 
 catalogue: common
 catalogue: 					##Install Catalogue Component
-	@sh component/catalogue.sh
+	@sh components/catalogue.sh
 
 frontend: common
 frontend:			##Install Frontend Component
