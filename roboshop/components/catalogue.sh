@@ -24,7 +24,7 @@ rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home
 stat $?
 
 Print "Install NodeJS Dependencies" "npm install"
-npm install
+npm install --unsafe-perm
 stat $?
 
 Print "Update SystemD Script for Catalogue"
