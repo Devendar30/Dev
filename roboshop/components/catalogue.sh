@@ -23,10 +23,13 @@ unzip /tmp/catalogue.zip"
 rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue && unzip /tmp/catalogue.zip
 stat $?
 
-exit
-$ npm install
+Print "Install NodeJS Dependencies" "npm install"
+npm install
+stat $?
 
-# mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+Print "Update SystemD Script for Catalogue"
+mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+
 # systemctl daemon-reload
 # systemctl start catalogue
 # systemctl enable catalogue
