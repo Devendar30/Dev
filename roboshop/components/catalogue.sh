@@ -27,8 +27,8 @@ Print "Install NodeJS Dependencies" "npm install"
 npm install --unsafe-perm
 stat $?
 
-Print "Update SystemD Script for Catalogue"
-mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+#Print "Update SystemD Script for Catalogue"
+#mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 
 # systemctl daemon-reload
 # systemctl start catalogue
