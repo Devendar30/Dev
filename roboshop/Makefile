@@ -4,13 +4,13 @@ help:
 common:
 	@sh components/common.sh
 
-cart: common
-cart: 						## Install Cart Component
-	@sh components/cart.sh
+user: common
+user: 						## Install user Component
+	@sh components/user.sh
 
-catalogue: common
-catalogue: 					##Install Catalogue Component
-	@sh components/catalogue.sh
+user: common
+user: 					##Install user Component
+	@sh components/user.sh
 
 frontend: common
 frontend:			##Install Frontend Component

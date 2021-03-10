@@ -30,6 +30,6 @@ curl -s -L -o /tmp/mongodb.zip "https://dev.azure.com/DevOps-Batches/f635c088-10
 stat $?
 
 Print "load schema" ""
-cd /tmp && unzip -o mongodb.zip && mongo < catalogue.js && mongo < users.js
+cd /tmp && unzip -o mongodb.zip && mongo < user.js && mongo < users.js
 stat $?
 
