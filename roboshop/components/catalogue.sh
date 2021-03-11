@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMPONENT=user
+COMPONENT=catalogue
 
 source components/common.sh
 
